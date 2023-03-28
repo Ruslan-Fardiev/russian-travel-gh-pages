@@ -1,0 +1,9 @@
+.header__lang-link {
+    text-decoration: none;
+    font-family: inter;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,7 @@
+@font-face {
+    src: url(./Inter-Thin.woff) format("woff"),
+        url(./Inter-Thin.woff2) format("woff2"),
+        url(./Inter-Thin.ttf) format("truetype");
+    font-family: 'Inter';
+    font-weight: normal;
+}
