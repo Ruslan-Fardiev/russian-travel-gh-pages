@@ -1,8 +1,21 @@
 .header {
-    max-width: 288px;
-    max-height: 42px;
+    min-width: 288px;
+    height: 42px;
     padding: 16px 16px 0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+    .header {
+        height: 52px;
+        padding: 28px 24px 0;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .header {
+        padding: 28px 48px 0;
+    }
 }
