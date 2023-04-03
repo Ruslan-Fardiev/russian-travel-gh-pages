@@ -1,0 +1,29 @@
+.intro__title {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+    .intro__title {
+        max-width: 94%;
+        font-size: 54px;
+        line-height: 107%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__title {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__title {
+        max-width: 77%;
+    }
+}

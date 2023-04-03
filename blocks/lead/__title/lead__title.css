@@ -11,7 +11,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .lead__title {
         font-size: 96px;
         line-height: 104%;
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
     .lead__title {
         padding-top: 56px;
     }    
