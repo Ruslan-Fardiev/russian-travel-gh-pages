@@ -3,7 +3,7 @@
 ### Обзор
 * Интро
 * Figma
-* Картинки
+* GitHub Pages
 
 **Интро**
 
@@ -18,4 +18,4 @@ Grid Layout
 
 **Ссылка на готовый проект на GitHub Pages**
 
-* [Ссылка на проект] (https://ruslan-fardiev.github.io/russian-travel-gh-pages/)
+* [Ссылка на проект](https://ruslan-fardiev.github.io/russian-travel-gh-pages/)
