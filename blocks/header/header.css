@@ -1,7 +1,7 @@
 .header {
-    min-width: 288px;
-    height: 42px;
-    padding: 16px 16px 0 16px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,13 +9,21 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        height: 52px;
-        padding: 28px 24px 0;
+        width: 94%;
+        padding-top: 28px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .header {
-        padding: 28px 48px 0;
+        width: 90%;
+        padding-top: 28px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        width: 93%;
+        padding-top: 28px;
     }
 }
