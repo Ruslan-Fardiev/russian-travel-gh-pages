@@ -5,7 +5,22 @@
     background: url(../../images/cover-trains.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+}
 
+.cover::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
 }
 
 .cover::after {
@@ -14,6 +29,7 @@
     height: 0;
     padding-top: calc(740 / 1184 * 100%);
 }
+
 
 @media screen and (min-width: 768px) {
     .cover {
