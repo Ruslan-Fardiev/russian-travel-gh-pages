@@ -1,7 +1,18 @@
 .cover {
     margin: 66px auto 0;
+    position: relative;
+    display: flex;
+    background: url(../../../images/cover-trains.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+.cover::after {
+    content: "";
+    width: 0;
+    height: 0;
+    padding-top: calc(740 / 1184 * 100%);
+}
 
 @media screen and (min-width: 768px) {
     .cover {

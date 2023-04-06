@@ -17,13 +17,11 @@
 @media screen and (min-width: 1024px) {
     .header {
         width: 90%;
-        padding-top: 28px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .header {
         width: 93%;
-        padding-top: 28px;
     }
 }
