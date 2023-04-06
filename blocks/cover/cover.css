@@ -5,6 +5,7 @@
     background: url(../../images/cover-trains.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 .cover::after {
